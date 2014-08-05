@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200D1A6019912D3300C15822 /* LNGColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200D1A5F19912D3300C15822 /* LNGColorViewController.m */; };
+		200D1A63199130DD00C15822 /* LNGPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200D1A62199130DD00C15822 /* LNGPaletteViewController.m */; };
+		200D1A661991317000C15822 /* LNGColorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 200D1A651991317000C15822 /* LNGColorDescription.m */; };
 		20F68300198FF427002628B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F682FF198FF427002628B7 /* main.m */; };
 		20F68303198FF427002628B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F68302198FF427002628B7 /* AppDelegate.m */; };
 		20F68305198FF427002628B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F68304198FF427002628B7 /* Images.xcassets */; };
@@ -25,6 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		200D1A5E19912D3300C15822 /* LNGColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNGColorViewController.h; path = Colorboard/LNGColorViewController.h; sourceTree = "<group>"; };
+		200D1A5F19912D3300C15822 /* LNGColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNGColorViewController.m; path = Colorboard/LNGColorViewController.m; sourceTree = "<group>"; };
+		200D1A61199130DD00C15822 /* LNGPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNGPaletteViewController.h; path = Colorboard/LNGPaletteViewController.h; sourceTree = "<group>"; };
+		200D1A62199130DD00C15822 /* LNGPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNGPaletteViewController.m; path = Colorboard/LNGPaletteViewController.m; sourceTree = "<group>"; };
+		200D1A641991317000C15822 /* LNGColorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNGColorDescription.h; path = Colorboard/LNGColorDescription.h; sourceTree = "<group>"; };
+		200D1A651991317000C15822 /* LNGColorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNGColorDescription.m; path = Colorboard/LNGColorDescription.m; sourceTree = "<group>"; };
 		20F682FA198FF427002628B7 /* Colorboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F682FE198FF427002628B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20F682FF198FF427002628B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -58,6 +67,12 @@
 		20F682F1198FF427002628B7 = {
 			isa = PBXGroup;
 			children = (
+				200D1A641991317000C15822 /* LNGColorDescription.h */,
+				200D1A651991317000C15822 /* LNGColorDescription.m */,
+				200D1A5E19912D3300C15822 /* LNGColorViewController.h */,
+				200D1A5F19912D3300C15822 /* LNGColorViewController.m */,
+				200D1A61199130DD00C15822 /* LNGPaletteViewController.h */,
+				200D1A62199130DD00C15822 /* LNGPaletteViewController.m */,
 				20F6831A198FF44F002628B7 /* Colorboard.storyboard */,
 				20F682FC198FF427002628B7 /* Colorboard */,
 				20F6830D198FF427002628B7 /* ColorboardTests */,
@@ -209,7 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200D1A661991317000C15822 /* LNGColorDescription.m in Sources */,
+				200D1A63199130DD00C15822 /* LNGPaletteViewController.m in Sources */,
 				20F68303198FF427002628B7 /* AppDelegate.m in Sources */,
+				200D1A6019912D3300C15822 /* LNGColorViewController.m in Sources */,
 				20F68300198FF427002628B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +404,7 @@
 				20F68316198FF427002628B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20F68317198FF427002628B7 /* Build configuration list for PBXNativeTarget "ColorboardTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +413,7 @@
 				20F68319198FF427002628B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
